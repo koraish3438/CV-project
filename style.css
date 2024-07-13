@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Gill Sans", sans-serif;
+}
+
+/*header section*/
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: #f1e1e1;
+    margin: 0 auto;
+}
+
+.logo img{
+    height: 120px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.name{
+    float: left;
+    padding: 35px 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #266D6D;
+}
+
+.link{
+    float: right;
+    padding: 35px 10px;
+}
+
+.link p{
+    padding: 4px 0px;
+}
+
+.link p a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.link p a:hover{
+    color: red;
+}
+
+.clear{
+    clear: both;
+}
+
+#h-hr{
+    border: 2px solid rgb(46, 40, 40);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*main section*/
+
+.sec{
+    margin: 20px;
+}
+
+
+.l-div{
+    width: 30%;
+    float: left;
+}
+
+.r-div{
+    width: 70%;
+    float: right;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.r-div p,h4,h6,ul{
+    padding: 3px 20px;
+    text-align: justify;
+}
+
+#common-hr{
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    margin-bottom: none;
+}
+
+.edu{
+    margin: 20px;
+}
+
+.l-sec{
+    float: left;
+    width: 30%;
+}
+
+.m-sec{
+    float: left;
+    width: 35%;
+}
+
+.la-sec{
+    float: left;
+    width: 35%;
+}
+
+h5{
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+
+.edu p{
+    margin-left: 20px;
+    padding: 3px 0px;
+}
+
+.edu p a{
+    text-decoration: none;
+}
+
+.edu p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: black;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.fot a{
+    color: white;
+    padding: 0px 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.fot a:hover{
+    color: yellow;
+}
+
+.fot p{
+    color: white;
+    margin-top: 20px;
+}
